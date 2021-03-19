@@ -42,7 +42,15 @@
 					смертельная битва, где останется только сильнейший
 				</p>
 				<div class="button-group">
-					<button class="button button-primary">Предзаказ фильма</button>
+					<!-- <button class="button button-primary">Предзаказ фильма</button> -->
+					<a
+						class="button button-primary"
+						data-fancybox
+						data-src="#hidden-content"
+						href="javascript:;"
+					>
+						Предзаказ фильма</a
+					>
 					<a
 						data-fancybox
 						href="https://www.youtube.com/watch?v=r4Wqp_O0V1g"
@@ -53,6 +61,15 @@
 					</a>
 				</div>
 			</section>
+		</div>
+		<div style="display: none" id="hidden-content">
+			<ul>
+				<li>
+					Введите ваш E-mail:
+					<input type="email" name="order-email" id="order-email" />
+				</li>
+				<li><button class="button button-primary">Подписаться</button></li>
+			</ul>
 		</div>
 		<script
 			src="https://code.jquery.com/jquery-3.6.0.min.js"

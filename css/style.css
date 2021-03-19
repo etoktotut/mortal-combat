@@ -39,12 +39,12 @@ header {
 }
 
 .app {
-	* background: linear-gradient(
+	background: linear-gradient(
 		90deg,
 		#010202 0%,
 		#010202 50%,
 		rgba(1, 2, 2, 0.2) 90.9%
-	); 
+	);
 	min-height: 100vh;
 	color: white;
 }
@@ -152,4 +152,12 @@ header {
 	.button {
 		margin-bottom: 10px;
 	}
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 15px;
 }
